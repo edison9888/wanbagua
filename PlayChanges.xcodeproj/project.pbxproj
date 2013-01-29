@@ -105,6 +105,7 @@
 		E28FB4B714F4D17A00303A23 /* 87 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB47714F4D17A00303A23 /* 87 */; };
 		E28FB4B814F4D17A00303A23 /* 88 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB47814F4D17A00303A23 /* 88 */; };
 		E28FB4BB14F4D8EF00303A23 /* PlayBaguaIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28FB4BA14F4D8EF00303A23 /* PlayBaguaIpad.xib */; };
+		E2E1787616B7800800994A2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E1787516B7800800994A2C /* Default-568h@2x.png */; };
 		E2FDC16D14F222ED00EBEE43 /* Bagua.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDC16C14F222ED00EBEE43 /* Bagua.m */; };
 		E2FDC17114F223F900EBEE43 /* BaChongGua.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDC17014F223F900EBEE43 /* BaChongGua.m */; };
 /* End PBXBuildFile section */
@@ -227,6 +228,7 @@
 		E28FB47714F4D17A00303A23 /* 87 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 87; sourceTree = "<group>"; };
 		E28FB47814F4D17A00303A23 /* 88 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 88; sourceTree = "<group>"; };
 		E28FB4BA14F4D8EF00303A23 /* PlayBaguaIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayBaguaIpad.xib; sourceTree = "<group>"; };
+		E2E1787516B7800800994A2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E2FDC16B14F222ED00EBEE43 /* Bagua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bagua.h; sourceTree = "<group>"; };
 		E2FDC16C14F222ED00EBEE43 /* Bagua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bagua.m; sourceTree = "<group>"; };
 		E2FDC16F14F223F900EBEE43 /* BaChongGua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaChongGua.h; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 		5E520E2D14F08F4C00AB8D1F /* PlayChanges */ = {
 			isa = PBXGroup;
 			children = (
+				E2E1787516B7800800994A2C /* Default-568h@2x.png */,
 				5E520E3614F08F4C00AB8D1F /* AppDelegate.h */,
 				5E520E3714F08F4C00AB8D1F /* AppDelegate.m */,
 				5E520E2E14F08F4C00AB8D1F /* Supporting Files */,
@@ -592,6 +595,7 @@
 				E22B82D614F9406C00ED1569 /* bgicon.png in Resources */,
 				E22B82D714F9406C00ED1569 /* bgiconiphone.png in Resources */,
 				E22B82D814F9406C00ED1569 /* bgiconx2.png in Resources */,
+				E2E1787616B7800800994A2C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +732,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayChanges/PlayChanges-Prefix.pch";
 				INFOPLIST_FILE = "PlayChanges/PlayChanges-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "玩八卦";
 				WRAPPER_EXTENSION = app;
 			};
@@ -739,6 +744,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayChanges/PlayChanges-Prefix.pch";
 				INFOPLIST_FILE = "PlayChanges/PlayChanges-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "玩八卦";
 				WRAPPER_EXTENSION = app;
 			};
@@ -808,6 +814,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayChanges/PlayChanges-Prefix.pch";
 				INFOPLIST_FILE = "PlayChanges/PlayChanges-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "玩八卦";
 				WRAPPER_EXTENSION = app;
 			};
