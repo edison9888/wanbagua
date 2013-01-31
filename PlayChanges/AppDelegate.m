@@ -11,6 +11,7 @@
 #import "Liuyao.h"
 #import "SkyGround.h"
 #import "More.h"
+#import "ShiYi.h"
 
 @implementation AppDelegate
 
@@ -24,13 +25,13 @@
     UINavigationController *nc1 = [[UINavigationController alloc] initWithRootViewController:pb];
     Liuyao *ly = [[Liuyao alloc] init];
     UINavigationController *nc2 = [[UINavigationController alloc] initWithRootViewController:ly];
-    //SkyGround *sg = [[SkyGround alloc] init];
-    //UINavigationController *nc3 = [[UINavigationController alloc] initWithRootViewController:sg];
+    ShiYi *shiyi = [[ShiYi alloc] init];
+    UINavigationController *nc3 = [[UINavigationController alloc] initWithRootViewController:shiyi];
     More *more = [[More alloc] init];
     UINavigationController *nc4 = [[UINavigationController alloc] initWithRootViewController:more];
     
     self.tbc = [[UITabBarController alloc] init];
-    self.tbc.viewControllers = [NSArray arrayWithObjects:nc1, nc2, nc4, nil];
+    self.tbc.viewControllers = [NSArray arrayWithObjects:nc1, nc2, nc3, nc4, nil];
     self.window.rootViewController = self.tbc;
     
     self.window.backgroundColor = [UIColor whiteColor];

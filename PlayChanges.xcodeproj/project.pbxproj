@@ -40,6 +40,10 @@
 		E22B82D614F9406C00ED1569 /* bgicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E22B82D314F9406C00ED1569 /* bgicon.png */; };
 		E22B82D714F9406C00ED1569 /* bgiconiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E22B82D414F9406C00ED1569 /* bgiconiphone.png */; };
 		E22B82D814F9406C00ED1569 /* bgiconx2.png in Resources */ = {isa = PBXBuildFile; fileRef = E22B82D514F9406C00ED1569 /* bgiconx2.png */; };
+		E28E911016BA5DEB007F8AF9 /* shiyi.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E910E16BA5DEB007F8AF9 /* shiyi.png */; };
+		E28E911116BA5DEB007F8AF9 /* 说卦传 in Resources */ = {isa = PBXBuildFile; fileRef = E28E910F16BA5DEB007F8AF9 /* 说卦传 */; };
+		E28E911416BA5E7C007F8AF9 /* 序卦传 in Resources */ = {isa = PBXBuildFile; fileRef = E28E911216BA5E7C007F8AF9 /* 序卦传 */; };
+		E28E911516BA5E7C007F8AF9 /* 杂卦传 in Resources */ = {isa = PBXBuildFile; fileRef = E28E911316BA5E7C007F8AF9 /* 杂卦传 */; };
 		E28FB47914F4D17A00303A23 /* 11 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB43914F4D17A00303A23 /* 11 */; };
 		E28FB47A14F4D17A00303A23 /* 12 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB43A14F4D17A00303A23 /* 12 */; };
 		E28FB47B14F4D17A00303A23 /* 13 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB43B14F4D17A00303A23 /* 13 */; };
@@ -105,6 +109,10 @@
 		E28FB4B714F4D17A00303A23 /* 87 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB47714F4D17A00303A23 /* 87 */; };
 		E28FB4B814F4D17A00303A23 /* 88 in Resources */ = {isa = PBXBuildFile; fileRef = E28FB47814F4D17A00303A23 /* 88 */; };
 		E28FB4BB14F4D8EF00303A23 /* PlayBaguaIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28FB4BA14F4D8EF00303A23 /* PlayBaguaIpad.xib */; };
+		E296072316BA4AC3005CEB27 /* ShiYi.m in Sources */ = {isa = PBXBuildFile; fileRef = E296072216BA4AC3005CEB27 /* ShiYi.m */; };
+		E296072616BA57E7005CEB27 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E296072516BA57E7005CEB27 /* TextViewController.m */; };
+		E296072916BA5A23005CEB27 /* 系辞传上 in Resources */ = {isa = PBXBuildFile; fileRef = E296072716BA5A23005CEB27 /* 系辞传上 */; };
+		E296072A16BA5A23005CEB27 /* 系辞传下 in Resources */ = {isa = PBXBuildFile; fileRef = E296072816BA5A23005CEB27 /* 系辞传下 */; };
 		E2E1787616B7800800994A2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E1787516B7800800994A2C /* Default-568h@2x.png */; };
 		E2FDC16D14F222ED00EBEE43 /* Bagua.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDC16C14F222ED00EBEE43 /* Bagua.m */; };
 		E2FDC17114F223F900EBEE43 /* BaChongGua.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDC17014F223F900EBEE43 /* BaChongGua.m */; };
@@ -163,6 +171,10 @@
 		E22B82D314F9406C00ED1569 /* bgicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgicon.png; sourceTree = "<group>"; };
 		E22B82D414F9406C00ED1569 /* bgiconiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgiconiphone.png; sourceTree = "<group>"; };
 		E22B82D514F9406C00ED1569 /* bgiconx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgiconx2.png; sourceTree = "<group>"; };
+		E28E910E16BA5DEB007F8AF9 /* shiyi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiyi.png; sourceTree = "<group>"; };
+		E28E910F16BA5DEB007F8AF9 /* 说卦传 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "说卦传"; sourceTree = "<group>"; };
+		E28E911216BA5E7C007F8AF9 /* 序卦传 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "序卦传"; sourceTree = "<group>"; };
+		E28E911316BA5E7C007F8AF9 /* 杂卦传 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "杂卦传"; sourceTree = "<group>"; };
 		E28FB43914F4D17A00303A23 /* 11 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11; sourceTree = "<group>"; };
 		E28FB43A14F4D17A00303A23 /* 12 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12; sourceTree = "<group>"; };
 		E28FB43B14F4D17A00303A23 /* 13 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 13; sourceTree = "<group>"; };
@@ -228,6 +240,12 @@
 		E28FB47714F4D17A00303A23 /* 87 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 87; sourceTree = "<group>"; };
 		E28FB47814F4D17A00303A23 /* 88 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 88; sourceTree = "<group>"; };
 		E28FB4BA14F4D8EF00303A23 /* PlayBaguaIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayBaguaIpad.xib; sourceTree = "<group>"; };
+		E296072116BA4AC3005CEB27 /* ShiYi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiYi.h; sourceTree = "<group>"; };
+		E296072216BA4AC3005CEB27 /* ShiYi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiYi.m; sourceTree = "<group>"; };
+		E296072416BA57E7005CEB27 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		E296072516BA57E7005CEB27 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		E296072716BA5A23005CEB27 /* 系辞传上 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "系辞传上"; sourceTree = "<group>"; };
+		E296072816BA5A23005CEB27 /* 系辞传下 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "系辞传下"; sourceTree = "<group>"; };
 		E2E1787516B7800800994A2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E2FDC16B14F222ED00EBEE43 /* Bagua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bagua.h; sourceTree = "<group>"; };
 		E2FDC16C14F222ED00EBEE43 /* Bagua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bagua.m; sourceTree = "<group>"; };
@@ -262,6 +280,12 @@
 		5E520E1814F08F4B00AB8D1F = {
 			isa = PBXGroup;
 			children = (
+				E28E911216BA5E7C007F8AF9 /* 序卦传 */,
+				E28E911316BA5E7C007F8AF9 /* 杂卦传 */,
+				E28E910E16BA5DEB007F8AF9 /* shiyi.png */,
+				E28E910F16BA5DEB007F8AF9 /* 说卦传 */,
+				E296072716BA5A23005CEB27 /* 系辞传上 */,
+				E296072816BA5A23005CEB27 /* 系辞传下 */,
 				E28FB43814F4D17A00303A23 /* 64gua */,
 				5E520E5B14F091D600AB8D1F /* Pics */,
 				5E520E2D14F08F4C00AB8D1F /* PlayChanges */,
@@ -315,6 +339,10 @@
 				E22B82C714F92C5400ED1569 /* SkyGround.h */,
 				E22B82C814F92C5500ED1569 /* SkyGround.m */,
 				E22B82C914F92C5500ED1569 /* SkyGround.xib */,
+				E296072116BA4AC3005CEB27 /* ShiYi.h */,
+				E296072216BA4AC3005CEB27 /* ShiYi.m */,
+				E296072416BA57E7005CEB27 /* TextViewController.h */,
+				E296072516BA57E7005CEB27 /* TextViewController.m */,
 			);
 			path = PlayChanges;
 			sourceTree = "<group>";
@@ -596,6 +624,12 @@
 				E22B82D714F9406C00ED1569 /* bgiconiphone.png in Resources */,
 				E22B82D814F9406C00ED1569 /* bgiconx2.png in Resources */,
 				E2E1787616B7800800994A2C /* Default-568h@2x.png in Resources */,
+				E296072916BA5A23005CEB27 /* 系辞传上 in Resources */,
+				E296072A16BA5A23005CEB27 /* 系辞传下 in Resources */,
+				E28E911016BA5DEB007F8AF9 /* shiyi.png in Resources */,
+				E28E911116BA5DEB007F8AF9 /* 说卦传 in Resources */,
+				E28E911416BA5E7C007F8AF9 /* 序卦传 in Resources */,
+				E28E911516BA5E7C007F8AF9 /* 杂卦传 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +672,8 @@
 				E2FDC16D14F222ED00EBEE43 /* Bagua.m in Sources */,
 				E2FDC17114F223F900EBEE43 /* BaChongGua.m in Sources */,
 				E22B82CA14F92C5600ED1569 /* SkyGround.m in Sources */,
+				E296072316BA4AC3005CEB27 /* ShiYi.m in Sources */,
+				E296072616BA57E7005CEB27 /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
